@@ -9,6 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 * ISO C++17 Compiler (tested with clang 6.0)
+* premake5
 
 To obtain clang 6.0:
 
@@ -53,7 +54,19 @@ on where you installed clang 6.
 You may need to change includedirs and libdirs in premake5.lua depending on where the mysql development
 libraries were installed.
 
-If you are using the command line to invoke make just cd to the project directory and run:
+In order to create the makefiles, you need to run premake5 at least once (you will need to rerun anytime
+premake5.lua is altered).
+
+If you are using the command line (i.e. not using VSCode):
+
+To run premake5 (assuming it is on the path):
+
+```
+cd {install location}
+premake5 gmake
+```
+
+then, to invoke make:
 
 ```
 make
@@ -62,6 +75,7 @@ make
 ## Built With
 
 * [args](https://github.com/Taywee/args) - The single header modern c++ arg parsing library
+* [premake5](https://premake.github.io/) - Powerfully simple build configuration
 
 ## Authors
 
