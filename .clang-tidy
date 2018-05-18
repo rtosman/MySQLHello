@@ -1,0 +1,1 @@
+Checks: '*,-readability-static-accessed-through-instance,-readability-named-parameter,-fuchsia-default-arguments,-readability-simplify-boolean-expr'

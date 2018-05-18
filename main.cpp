@@ -1,10 +1,11 @@
 /* Simple C program that connects to MySQL Database server*/
-#include <mysqlpp11/mysqlpp11.h>
-#include <string>
-#include <iostream>
-#include <list>
 #include <any>
 #include <args.hxx>
+#include <cstdlib>
+#include <iostream>
+#include <list>
+#include <mysqlpp11/mysqlpp11.h>
+#include <string>
 
 using HelpFlagType = args::HelpFlag;
 using VerboseArgType = args::Flag;
