@@ -59,14 +59,6 @@ If you are using the command line to invoke make just cd to the project director
 make
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-Output will resemble (when run against the ubiqutous Shapes demo)
-
-    ...
-    BLUE               174               198                30                 0                 0
-    ...
-
 ## Built With
 
 * [args](https://github.com/Taywee/args) - The single header modern c++ arg parsing library
