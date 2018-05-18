@@ -1,5 +1,5 @@
 -- premake5.lua
-workspace "TemplateTreesDemo"
+workspace "HelloMySQL"
    configurations { "Debug", "Release" }
 
 project "HelloMySQL"
